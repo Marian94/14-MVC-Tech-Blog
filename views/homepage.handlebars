@@ -1,6 +1,9 @@
 {{#each posts as |post|}}
 <section class="form-box">
-  <h2><a class="postLink" href="/posts/{{post.id}}">{{post.title}}</a><span class="postInfo">Posted by {{post.user.username}} on {{format_date post.date_posted}}</span></h2>
+  <h2>
+    <a class="postLink" href="/posts/{{post.id}}">{{post.title}}</a>
+    <span class="postInfo">Posted by {{post.user.username}} on {{format_date post.date_posted}}</span>
+  </h2>
   <div class="contentText">
     <p>{{post.content}}</p>
   </div>

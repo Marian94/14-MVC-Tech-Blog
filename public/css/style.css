@@ -3,6 +3,7 @@ header {
     background-color: darkslategray;
     display: flex;
     flex: row;
+    flex-direction:column;
 }
 
 
@@ -14,15 +15,21 @@ li {
 }
 
 h1 {
-    background-color: lightyellow;
+    background-color: lightgray;
     font-size: 32px;
     border-radius: 7px;
     padding: 10px;
     margin-top: 10px;
     box-shadow: 6px 5px 1px black;
+    width:15rem;
 }
+
+.returnBtn{
+color:black
+}
+
 body {
-    background-color: lightyellow;
+    background-color: lightblue;
 }
 
 main {
@@ -34,7 +41,9 @@ label, input, button {
 }
 
 .form-box {
-align-items: center;
+    margin: 42px;
+    background-color: lightgray;
+    align-items: center;
     max-width: 42rem;
     border: 2px solid darkslategray;
 }
@@ -57,6 +66,11 @@ h2 {
     margin-bottom: 20px;
 }
 
+.signup {
+    color: blue;
+    text-decoration: underline;
+}
+
 label, button, a {
     font-size: 24px;
 }
@@ -70,6 +84,7 @@ button, .posts {
     border: none;
     background-color: gray;
     color: white;
+    width: 10rem;
 }
 
 button:hover {
@@ -93,20 +108,23 @@ label {
 #newPostBtn {
     width: fit-content;
     background-color: darkslategray;
-    padding: 25px;
+    padding: 30px;
     margin: auto;
-    font-size: 32px;
+    font-size: 25px;
     line-height: 5px;
     position: relative;
     bottom: 2%;
 }
 
 .posts {
-    margin: 2% 2% 0 2%;
-    padding: 1%;
+    width: 24rem;
+    margin: 24px;
+    padding: 10px;
     font-size: 24px;
     display: flex;
+    flex-direction:column;
     justify-content: space-between;
+    line-height: 40px;
 }
 
 .posts:hover {
@@ -122,11 +140,11 @@ label {
 }
 
 .postLink {
-    color: black;
+    color: white;
 }
 
 .postLink:hover {
-    color: white;
+    color: lightgray;
     cursor: pointer;
 }
 
