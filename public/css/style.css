@@ -1,0 +1,135 @@
+header {
+    padding: 1% 0 1% 2%;
+    background-color: darkslategray;
+    display: flex;
+    flex: row;
+}
+
+
+li {
+    display: inline;
+    color: white;
+    padding-right: 42px;
+    font-size: 24px;
+}
+
+h1 {
+    background-color: lightyellow;
+    font-size: 32px;
+    border-radius: 7px;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 6px 5px 1px black;
+}
+body {
+    background-color: lightyellow;
+}
+
+main {
+    margin: 25px 42px;
+}
+
+label, input, button {
+    display: block;
+}
+
+.form-box {
+align-items: center;
+    max-width: 42rem;
+    border: 2px solid darkslategray;
+}
+
+h2 {
+    background-color: darkslategray;
+    padding: 10px 10px 10px 10px;
+    font-size: 24px;
+    color:snow;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-content {
+    margin: 10px;
+}
+
+.form-content input, button, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+label, button, a {
+    font-size: 24px;
+}
+
+input, button {
+    height: 40px;
+}
+
+button, .posts {
+    border-radius: 7px;
+    border: none;
+    background-color: gray;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+input, textarea {
+    border: none;
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+#logout:hover {
+    cursor: pointer;
+}
+
+#newPostBtn {
+    width: fit-content;
+    background-color: darkslategray;
+    padding: 25px;
+    margin: auto;
+    font-size: 32px;
+    line-height: 5px;
+    position: relative;
+    bottom: 2%;
+}
+
+.posts {
+    margin: 2% 2% 0 2%;
+    padding: 1%;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.posts:hover {
+    cursor: pointer;
+}
+
+.postInfo {
+    font-size: 16px;
+}
+
+.contentText {
+    padding: 10px;
+}
+
+.postLink {
+    color: black;
+}
+
+.postLink:hover {
+    color: white;
+    cursor: pointer;
+}
+
+p {
+    font-size: 20px;
+}

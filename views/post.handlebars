@@ -1,0 +1,31 @@
+<section class="form-box">
+  <h2>{{title}}<span class="postInfo">Posted by {{user.username}} on {{format_date date_posted}}</span></h2>
+  <div class="contentText">
+    <p>{{content}}</p>
+  </div>
+</section>
+
+{{#each comments as |comment|}}
+<section class="form-box">
+  <h2></h2>
+  <div class="contentText">
+    <p>{{comment.content}}</p>
+    <br>
+    <p>–{{comment.username}}, {{format_date comment.date_posted}}</p>
+  </div>
+</section>
+{{/each}}
+
+{{#if loggedIn}}
+<section class="form-box">
+  <h2></h2>
+  <div class="form-content">
+    <form>
+      <label for="comment">Comment</label>
+      <textarea id="comment" name="comment"></textarea>
+      <button type="submit" id="commentBtn" data-post="{{id}}">Submit</button>
+    </form>
+  </div>
+</section>
+<script src="/js/comment.js"></script>
+{{/if}}
