@@ -11,7 +11,7 @@ const createNewUser = async (event) => {
   };
 
   try {
-    const response = await fetch("api/users", {
+    const response = await fetch("api/users/signup", {
       method: "POST",
       headers: {
         "Content-Type": "Application/JSON",
