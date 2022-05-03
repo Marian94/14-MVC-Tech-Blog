@@ -1,6 +1,6 @@
 # Unit 14: Model-View-Controller (MVC)
 
-https://tech-blog-marian94.herokuapp.com
+https://tech-blog-marian94.herokuapp.com/
 
 ## Project Description
 
@@ -54,3 +54,7 @@ mgromero94@hotmail.com
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 # Demo
+
+
+https://user-images.githubusercontent.com/51127563/166588143-a3d48bcb-f955-4c73-8f3e-039d2046c737.mp4
+
